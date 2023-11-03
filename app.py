@@ -1,7 +1,6 @@
 import streamlit as st
 import pandas as pd
 from dummies import *
-pip install -U  --upgrade pip
 import joblib
 model=joblib.load('regression_model.h5')
 scaler=joblib.load('scaler.h5')
