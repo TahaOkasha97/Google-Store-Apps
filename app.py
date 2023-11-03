@@ -9,8 +9,7 @@ scaler=joblib.load('scaler.h5')
 st.title("Google Store Apps Project")
 st.info("Final Project")
 
-#x = ['Rating', 'Reviews', 'Price', 'Last_Updated_Year',
-       'Min_Android_Ver',"Category","Content_Rating"]
+#x = ['Rating', 'Reviews', 'Price', 'Last_Updated_Year','Min_Android_Ver',"Category","Content_Rating"]
 #x= x.rename(str,axis="columns") 
 
 Rating= st.number_input("Enter Rating")
