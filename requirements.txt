@@ -1,4 +1,4 @@
-alabaster @ file:///home/ktietz/src/ci/alabaster_1611921544520/work
+
 altair==4.0.0
 anaconda-anon-usage @ file:///C:/b/abs_ffxflkd4bw/croot/anaconda-anon-usage_1695037769762/work
 anaconda-client @ file:///C:/ci/anaconda-client_1635342725944/work
