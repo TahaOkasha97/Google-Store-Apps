@@ -11,6 +11,8 @@ st.info("Final Project")
 
 x = ['Rating', 'Reviews', 'Price', 'Last_Updated_Year',
        'Min_Android_Ver',"Category","Content_Rating"]
+X.columns = X.columns.astype(str)
+
 Rating= st.number_input("Enter Rating")
 Reviews= st.number_input("Reviews")
 Price= st.number_input("Price")
