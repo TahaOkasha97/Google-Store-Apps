@@ -60,7 +60,7 @@ df = pd.DataFrame(columns=['Rating', 'Reviews', 'Price', 'Last_Updated_Year',
 
 # append the new row to the DataFrame
 #df = df.append(pd.Series(data, index=df.columns), ignore_index=True)
-df = pd.concat([df, data], ignore_index=True)
+df = pd.concat(df, data, ignore_index=True)
 st.write(df)
 #data_scaled = scaler.transform(df)
 #result = model.predict(df)
