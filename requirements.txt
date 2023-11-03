@@ -1,3 +1,4 @@
+sklearn
 joblib
 pandas
 numpy
@@ -5,10 +6,3 @@ datetime
 seaborn
 matplotlib.pyplot
 plotly.express
-sklearn.preprocessing
-sklearn.model_selection
-imblearn.over_sampling
-sklearn.linear_model
-sklearn.neighbors
-sklearn.metrics
-sklearn.preprocessing
