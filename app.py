@@ -11,7 +11,7 @@ st.info("A rough prediction of the number of potential users (Installs) for andr
 
 Rating = st.slider("Rating", min_value=0.0, max_value=5.0, value=4.0, step=0.1)
 Reviews= st.number_input("Reviews",step=1)
-Price= st.number_input("Price")
+Price= st.number_input("Price $")
 Last_Updated_Year=st.slider("Last Updated Year", min_value=2010, max_value=2024, value=2015, step=1)
 Min_Android_Ver = st.slider("Min Android Ver ",min_value=1.0, max_value=15.0, value=7.0,step=0.1)
 
