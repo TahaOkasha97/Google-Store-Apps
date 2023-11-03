@@ -61,8 +61,8 @@ df = pd.DataFrame(columns=['Rating', 'Reviews', 'Price', 'Last_Updated_Year',
 # append the new row to the DataFrame
 #df = df.append(pd.Series(data, index=df.columns), ignore_index=True)
 df = pd.concat([df, pd.DataFrame([data])], ignore_index=True)
-
-data_scaled = scaler.transform(df)
-result = model.predict(df)
-st.write("Predicted Installs")
-st.write(result)
+prind(df)
+#data_scaled = scaler.transform(df)
+#result = model.predict(df)
+#st.write("Predicted Installs")
+#st.write(result)
