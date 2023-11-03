@@ -9,11 +9,11 @@ scaler=joblib.load('scaler.h5')
 st.title("Google Store Apps Project")
 st.info("A rough prediction of the number of potential users (Installs) for android app")
 
-#Rating= st.number_input("Enter Rating")
 Rating = st.slider("Rating", min_value=0.0, max_value=5.0, value=4.0, step=0.1)
 Reviews= st.number_input("Reviews",step=1)
 Price= st.number_input("Price")
-Last_Updated_Year= st.number_input("Last Updated Year")
+#Last_Updated_Year= st.number_input("Last Updated Year")
+Last_Updated_Year=st.slider("Last Updated Year", min_value=2010, max_value=2024, value=2015, step=1)
 Min_Android_Ver = st.number_input("Min Android Ver ",step=1e-1)
 Category_select = st.selectbox("Select Category",{"Category_ART_AND_DESIGN",'Category_AUTO_AND_VEHICLES', 'Category_BEAUTY',
        'Category_BOOKS_AND_REFERENCE', 'Category_BUSINESS', 'Category_COMICS',
