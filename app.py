@@ -39,7 +39,8 @@ data = [Rating,Reviews,Price,Last_Updated_Year,Min_Android_Ver]
 data = data + Category + Content_Rating
 
 # create a new empty DataFrame with the correct column names
-df = pd.DataFrame(columns=[ "Rating","Reviews" ,"Price","Last_Updated_Year","Min_Android_Ver","Category_ART_AND_DESIGN",'Category_AUTO_AND_VEHICLES', 'Category_BEAUTY',
+df = pd.DataFrame(columns=['Rating', 'Reviews',"Price", 'Last_Updated_Year',
+       'Min_Android_Ver','Category_AUTO_AND_VEHICLES', 'Category_BEAUTY',
        'Category_BOOKS_AND_REFERENCE', 'Category_BUSINESS', 'Category_COMICS',
        'Category_COMMUNICATION', 'Category_DATING', 'Category_EDUCATION',
        'Category_ENTERTAINMENT', 'Category_EVENTS', 'Category_FAMILY',
@@ -53,7 +54,7 @@ df = pd.DataFrame(columns=[ "Rating","Reviews" ,"Price","Last_Updated_Year","Min
        'Category_SPORTS', 'Category_TOOLS', 'Category_TRAVEL_AND_LOCAL',
        'Category_VIDEO_PLAYERS', 'Category_WEATHER','Content_Rating_Everyone', 'Content_Rating_Everyone 10+',
        'Content_Rating_Mature 17+', 'Content_Rating_Teen',
-       'Content_Rating_Unrated',"Content_Rating_Adults only 18+"])
+       'Content_Rating_Unrated'])
 
 # append the new row to the DataFrame
 df.loc[len(df)] = data
