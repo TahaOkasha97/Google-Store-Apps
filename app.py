@@ -34,7 +34,7 @@ Content_Rating_select = st.selectbox("Select content rating",{'Content_Rating_Ev
        'Content_Rating_Unrated',"Content_Rating_Adults only 18+"})
 Content_Rating = Content_Rating_dummies[Content_Rating_select]
 
-data = [Rating,Reviews,Last_Updated_Year,Min_Android_Ver]
+data = [Rating,Last_Updated_Year,Min_Android_Ver,Reviews]
 data = data + Category + Content_Rating
 
 # create a new empty DataFrame with the correct column names
