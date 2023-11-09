@@ -3,6 +3,38 @@
 
 # In[1]:
 
+category_list = ['Category_AUTO_AND_VEHICLES',
+ 'Category_BEAUTY',
+ 'Category_BOOKS_AND_REFERENCE',
+ 'Category_BUSINESS',
+ 'Category_COMICS',
+ 'Category_COMMUNICATION',
+ 'Category_DATING',
+ 'Category_EDUCATION',
+ 'Category_ENTERTAINMENT',
+ 'Category_EVENTS',
+ 'Category_FAMILY',
+ 'Category_FINANCE',
+ 'Category_FOOD_AND_DRINK',
+ 'Category_GAME',
+ 'Category_HEALTH_AND_FITNESS',
+ 'Category_HOUSE_AND_HOME',
+ 'Category_LIBRARIES_AND_DEMO',
+ 'Category_LIFESTYLE',
+ 'Category_MAPS_AND_NAVIGATION',
+ 'Category_MEDICAL',
+ 'Category_NEWS_AND_MAGAZINES',
+ 'Category_PARENTING',
+ 'Category_PERSONALIZATION',
+ 'Category_PHOTOGRAPHY',
+ 'Category_PRODUCTIVITY',
+ 'Category_SHOPPING',
+ 'Category_SOCIAL',
+ 'Category_SPORTS',
+ 'Category_TOOLS',
+ 'Category_TRAVEL_AND_LOCAL',
+ 'Category_VIDEO_PLAYERS',
+ 'Category_WEATHER']
 
 category_dummies = {
  'Category_ART_AND_DESIGN'         :[0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0],
