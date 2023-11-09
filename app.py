@@ -39,7 +39,7 @@ data = data + Category + Content_Rating
 
 # create a new empty DataFrame with the correct column names
 df = pd.DataFrame(columns=['Rating', 'Reviews', 'Last_Updated_Year',
-       'Min_Android_Ver',"Category_ART_AND_DESIGN",'Category_AUTO_AND_VEHICLES', 'Category_BEAUTY',
+       'Min_Android_Ver','Category_AUTO_AND_VEHICLES', 'Category_BEAUTY',
        'Category_BOOKS_AND_REFERENCE', 'Category_BUSINESS', 'Category_COMICS',
        'Category_COMMUNICATION', 'Category_DATING', 'Category_EDUCATION',
        'Category_ENTERTAINMENT', 'Category_EVENTS', 'Category_FAMILY',
