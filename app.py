@@ -11,7 +11,6 @@ st.info("A rough prediction of the number of potential users (Installs) for andr
 
 Rating = st.slider("Rating", min_value=0.0, max_value=5.0, value=4.0, step=0.1)
 Reviews= st.number_input("Reviews",step=1)
-#Price= st.number_input("Price $")
 Last_Updated_Year=st.slider("Last Updated Year", min_value=2010, max_value=2024, value=2015, step=1)
 Min_Android_Ver = st.slider("Min Android Ver ",min_value=1.0, max_value=15.0, value=7.0,step=0.1)
 
@@ -35,7 +34,7 @@ Content_Rating_select = st.selectbox("Select content rating",{'Content_Rating_Ev
        'Content_Rating_Unrated',"Content_Rating_Adults only 18+"})
 Content_Rating = Content_Rating_dummies[Content_Rating_select]
 
-data = [Rating,Reviews,Price,Last_Updated_Year,Min_Android_Ver]
+data = [Rating,Reviews,Last_Updated_Year,Min_Android_Ver]
 data = data + Category + Content_Rating
 
 # create a new empty DataFrame with the correct column names
